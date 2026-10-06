@@ -1,0 +1,24 @@
+[
+  {
+    "gc_id": 1,
+    "timestamp": 1791274638.8135056,
+    "trigger_reason": "CAPACITY_WATERMARK",
+    "victim_segment_id": 8,
+    "policy": "ADAPTIVE",
+    "candidate_count": 15,
+    "valid_blocks_before": 0,
+    "invalid_blocks_before": 20,
+    "free_blocks_before": 0,
+    "copied_bytes": 0,
+    "reclaimed_bytes": 81920,
+    "latency_sec": 1.4900000678608194e-05,
+    "write_amplification": 1.0,
+    "predicted_utility": 0.0,
+    "confidence": 0.4,
+    "is_exploration": false,
+    "fallback_used": true,
+    "fallback_reason": "FALLBACK_LOW_CONFIDENCE_0.40",
+    "observed_utility": 0.999982470587437,
+    "workload_phase": "MIXED"
+  }
+]

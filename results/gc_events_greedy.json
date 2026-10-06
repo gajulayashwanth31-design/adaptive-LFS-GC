@@ -1,0 +1,24 @@
+[
+  {
+    "gc_id": 1,
+    "timestamp": 1791274638.7909746,
+    "trigger_reason": "CAPACITY_WATERMARK",
+    "victim_segment_id": 8,
+    "policy": "Greedy",
+    "candidate_count": 15,
+    "valid_blocks_before": 0,
+    "invalid_blocks_before": 20,
+    "free_blocks_before": 0,
+    "copied_bytes": 0,
+    "reclaimed_bytes": 81920,
+    "latency_sec": 1.5300000086426735e-05,
+    "write_amplification": 1.0,
+    "predicted_utility": null,
+    "confidence": null,
+    "is_exploration": false,
+    "fallback_used": false,
+    "fallback_reason": null,
+    "observed_utility": 81919.98469999991,
+    "workload_phase": "MIXED"
+  }
+]

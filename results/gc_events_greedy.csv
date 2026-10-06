@@ -1,0 +1,2 @@
+gc_id,timestamp,trigger_reason,victim_segment_id,policy,candidate_count,valid_blocks_before,invalid_blocks_before,free_blocks_before,copied_bytes,reclaimed_bytes,latency_sec,write_amplification,predicted_utility,confidence,is_exploration,fallback_used,fallback_reason,observed_utility,workload_phase
+1,1791274638.7909746,CAPACITY_WATERMARK,8,Greedy,15,0,20,0,0,81920,1.5300000086426735e-05,1.0,,,False,False,,81919.98469999991,MIXED

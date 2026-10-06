@@ -1,0 +1,50 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "LFS: Launch Interactive Web Dashboard",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["web"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "LFS: Run Comparative Benchmark",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["benchmark", "--ops-per-phase", "80"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "LFS: Run Ablation Studies",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["ablation", "--ops-per-phase", "80"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "LFS: Run Interactive Demo",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": ["demo"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "LFS: Run PyTest Suite",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["tests/"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
